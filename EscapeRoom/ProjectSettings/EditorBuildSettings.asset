@@ -6,6 +6,72 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: 8ccf71c8efe4fa04bb1b31037bacbdc2
+  - enabled: 1
+    path: Assets/Scenes/AMK_23_Kolmas_LansiKahvihuone.unity
+    guid: 317798839068f4a4697094bce051d7da
+  - enabled: 1
+    path: Assets/Scenes/AMK_22_Kolmas_IT_Opet1.unity
+    guid: 870c3121b5e3b6042a2305c997575738
+  - enabled: 1
+    path: Assets/Scenes/AMK_21_Kolmas_IT_OPet2.unity
+    guid: c575039d2ed316546aeffa13d9c77fa1
+  - enabled: 1
+    path: Assets/Scenes/AMK_20_Kolmas_Ita2.unity
+    guid: 73b8c67ca7bf06040aec1cedecc4fcc5
+  - enabled: 1
+    path: Assets/Scenes/AMK_19_Kolmas_Ita1.unity
+    guid: f5fc81951e8bd1a4fb8625a4c9bafac2
+  - enabled: 1
+    path: Assets/Scenes/AMK_18_KolmasLansi2.unity
+    guid: 12ff8f6cbe0108d40936e3aa5bdcc23b
+  - enabled: 1
+    path: Assets/Scenes/AMK_17_KolmasLansi1.unity
+    guid: 7cdd002b0d4cd8d42aa588b6eef70c1a
+  - enabled: 1
+    path: Assets/Scenes/AMK_16_KolmasAula.unity
+    guid: 187f005a8548efc498684ecd156f86c5
+  - enabled: 1
+    path: Assets/Scenes/AMK_15_KolmasHissi.unity
+    guid: e9b784636abbb9f45b99a0bb188ea38d
+  - enabled: 1
+    path: Assets/Scenes/AMK_14_TokaKolmasVali2.unity
+    guid: 9c937e3fccbfdaf49bcca4d98eb3d442
+  - enabled: 1
+    path: Assets/Scenes/AMK_13_TokaKolmasVali.unity
+    guid: 2c9842dcbe768324e9c4ec72c2468754
+  - enabled: 1
+    path: Assets/Scenes/AMK_12_TokaHissi2.unity
+    guid: 30e0d6ab53d78db418e372b37a846e58
+  - enabled: 1
+    path: Assets/Scenes/AMK_11_TokaHissi.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/AMK_10_EkaTokaVali2.unity
+    guid: febca089bc7586f4a9c17825db399e70
+  - enabled: 1
+    path: Assets/Scenes/AMK_09_EkaTokaVali.unity
+    guid: 92db5b82004b3f64d97b334e86d337cd
+  - enabled: 1
+    path: Assets/Scenes/AMK_08_AlakertaPortaat.unity
+    guid: d4c027e50f0412b48addf9c8317339eb
+  - enabled: 1
+    path: Assets/Scenes/AMK_07_Hissi.unity
+    guid: 64149feaf0f32bf45a44de30c3f5ee13
+  - enabled: 1
+    path: Assets/Scenes/AMK_06_Kirjasto.unity
+    guid: e6d5310f5e3a2634b8ad06580af8bf45
+  - enabled: 1
+    path: Assets/Scenes/AMK_05_aula.unity
+    guid: 8324ab8d736cbb84e813e3d14d1e368b
+  - enabled: 1
+    path: Assets/Scenes/AMK_04_sisa.unity
+    guid: 51881c05b7b7a724ab8f308677170d7a
+  - enabled: 1
+    path: Assets/Scenes/AMK_03_sisa.unity
+    guid: 6ee03339ae586f4449e01bd0de0ac29f
+  - enabled: 1
     path: Assets/Scenes/AMK_02_Ulkoa.unity
     guid: 42dc18624e7a4854ab353a4a19496ffa
   m_configObjects: {}
