@@ -9,11 +9,11 @@ public class PickUpObjectClickHandler : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public Renderer exitPicture;
     public Collider exitPictureCollider;
-
-
+    public GameObject blinkText;
     //pisteet tallennetaan score -kohtaan, ja maksimim‰‰r‰ palloja kerrotaan totalSpheres -kohdassa
     private int score = 0;
-    public int MaxPickUpObjects = 7; 
+    public int MaxPickUpObjects = 7;
+    public TextMeshProUGUI winText;
 
     private void Start()
     {
@@ -22,6 +22,10 @@ public class PickUpObjectClickHandler : MonoBehaviour
         exitPicture = GetComponent<Renderer>();
         exitPicture.enabled = false;
         exitPictureCollider.enabled = false;
+        scoreText.enabled = false;
+        winText.enabled = false;
+
+        blinkText.GetComponent<Animator>().Play("Blink");
     }
 
     void Update()
@@ -29,6 +33,11 @@ public class PickUpObjectClickHandler : MonoBehaviour
         //jos painetaan hiiren vasenta n‰pp‰int‰
         if (Input.GetMouseButtonDown(0))
         {
+            //Jos blink-animaatio on k‰ynniss‰, niin animaatio vaihetaan panelup-animaatioon
+            if (blinkText.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Blink")) { 
+                blinkText.GetComponent<Animator>().Play("PanelUp");
+                scoreText.enabled = true;
+            }
             //l‰hetet‰‰n ray (eli s‰de) hiiren kohdalle
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -51,6 +60,7 @@ public class PickUpObjectClickHandler : MonoBehaviour
                         // exit -kuva tulee n‰kyviin
                         exitPicture.enabled = true;
                         exitPictureCollider.enabled = true;
+                        winText.enabled = true;
 
                     }
                 }
