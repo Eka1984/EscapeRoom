@@ -19,7 +19,6 @@ public class PickUpObjectClickHandler : MonoBehaviour
     {
         //alustetaan scene alustamalla pisteteksti, ja piilotetaan exit -kuva
         UpdateScoreUI();
-        exitPicture = GetComponent<Renderer>();
         exitPicture.enabled = false;
         exitPictureCollider.enabled = false;
         scoreText.enabled = false;
