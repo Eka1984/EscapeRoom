@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CanvasScript : MonoBehaviour
@@ -23,14 +24,27 @@ public class CanvasScript : MonoBehaviour
     public void ChoiceOption1()
     {
         feedBack.text = "Väärin! Yritä uudelleen";
+        
     }
     public void ChoiceOption2()
     {
+        Scene currentScene = SceneManager.GetActiveScene();
+        if (currentScene.name == "AMK_03_sisa")
+        {
+            feedBack.text = "Oikein! Nyt voit poistua huoneesta";
+            feedBack.color = Color.blue;
+            Invoke("ShowAnimation2", 1.5f);
+            Invoke("DeactivatePanel", 2.2f);
+            exitButton.SetActive(true);
+        } 
+        else 
+        { 
         feedBack.text = "Oikein! Nyt voit poistua huoneesta";
         feedBack.color = Color.blue;
         Invoke("ShowAnimation", 1.5f);
         Invoke("DeactivatePanel", 2.2f);
         exitButton.SetActive(true);
+        }
     }
 
     public void ChoiceOption3()
@@ -41,6 +55,11 @@ public class CanvasScript : MonoBehaviour
     public void ShowAnimation()
     {
         questionPanel.GetComponent<Animator>().Play("PanelSlidesAway");
+    }
+
+    public void ShowAnimation2()
+    {
+        questionPanel.GetComponent<Animator>().Play("PanelSlidesAwayToLeft");
     }
 
     public void DeactivatePanel()
