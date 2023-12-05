@@ -17,22 +17,20 @@ public class MainThemeController : MonoBehaviour
 
         
         audioSource = GetComponent<AudioSource>();
-
         
-        audioSource.Play();
-
-        
-        int lastSceneIndex = SceneManager.sceneCountInBuildSettings - 1;
-        if (SceneManager.GetActiveScene().buildIndex == lastSceneIndex)
-        {            
-            StopMusic();
-        }        
+        audioSource.Play();               
         
     }
 
     private void Update()
     {
         videoPlayer = FindObjectOfType<VideoPlayer>();
+
+        int lastSceneIndex = SceneManager.sceneCountInBuildSettings - 1;
+        if (SceneManager.GetActiveScene().buildIndex == lastSceneIndex)
+        {
+            StopMusic();
+        }
 
         if (videoPlayer != null)
         {
