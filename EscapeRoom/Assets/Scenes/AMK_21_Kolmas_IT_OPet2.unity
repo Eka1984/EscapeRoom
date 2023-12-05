@@ -1300,7 +1300,7 @@ MonoBehaviour:
   answerButton1: {fileID: 1874471589}
   answerButton2: {fileID: 1010610802}
   answerButton3: {fileID: 1717264294}
-  feedBack: {fileID: 841421299}
+  feedBack: {fileID: 841421301}
   questionPanel: {fileID: 0}
 --- !u!1 &1343832098
 GameObject:
