@@ -14,7 +14,6 @@ public class MainThemeController : MonoBehaviour
     {
         
         DontDestroyOnLoad(gameObject);
-
         
         audioSource = GetComponent<AudioSource>();
         
