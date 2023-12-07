@@ -40,7 +40,11 @@ public class MainThemeController : MonoBehaviour
             {
                 VideoPaused(videoPlayer);
             }
+        }
 
+        if (videoPlayer == null || ReferenceEquals(videoPlayer, null))
+        {
+            ResumeMusic();
         }
     }
 
