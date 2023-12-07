@@ -35,7 +35,7 @@ public class MultiChoiceQuetions: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // vastaus on v‰‰rin niin painikkeet eiv‰t h‰vi 
+        // vastaus on v‰‰rin niin painikkeet eiv‰t h‰vi‰ 
         if (answer != oikeinVastaus)
         {
             btn1.SetActive(true);
@@ -57,7 +57,7 @@ public class MultiChoiceQuetions: MonoBehaviour
 
     }
 
-    // tiet‰m‰tt‰ kertomusta painike
+    // H‰n miettii joululomaa painike
     public void btn1Clicked()
     {
         textBox.text = "Vastaus on v‰‰rin!";
@@ -67,12 +67,12 @@ public class MultiChoiceQuetions: MonoBehaviour
     // kameran edess‰ ujo painike
     public void btn2Clicked()
     {
-        textBox.text = "Vastaus on oikein! Saat jatkaa seuraavalle!!";
+        textBox.text = "Vastaus on oikein! Voit jatkaa eteenp‰in!";
         answer = 2;
 
     }
 
-    // h‰nen kouluntapansa painike
+    // H‰n koodaa samalla painike
     public void btn3Clicked()
     {
         textBox.text = "Vastaus on v‰‰rin!";
