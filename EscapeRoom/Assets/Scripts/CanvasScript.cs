@@ -23,6 +23,7 @@ public class CanvasScript : MonoBehaviour
 
     public void ChoiceOption1()
     {
+        Debug.Log("Button Clicked!");
         feedBack.text = "Väärin! Yritä uudelleen";
         
     }
@@ -30,7 +31,7 @@ public class CanvasScript : MonoBehaviour
     {
         Scene currentScene = SceneManager.GetActiveScene();
         if (currentScene.name == "AMK_03_sisa")
-        {
+        {            
             feedBack.text = "Oikein! Nyt voit poistua huoneesta";
             feedBack.color = Color.blue;
             Invoke("ShowAnimation2", 1.5f);
