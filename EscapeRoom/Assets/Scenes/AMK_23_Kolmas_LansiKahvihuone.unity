@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6228908, g: 0.49570638, b: 0.3746356, a: 1}
+  m_IndirectSpecularColor: {r: 0.6228215, g: 0.495785, b: 0.37456352, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -291,8 +291,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -75, y: 23}
-  m_SizeDelta: {x: 225.6625, y: 124.8306}
+  m_AnchoredPosition: {x: 0.4233, y: 3.8}
+  m_SizeDelta: {x: 784.7198, y: 296.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463657645
 MonoBehaviour:
@@ -316,10 +316,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Her\xE4\xE4t ammattikorkean kahvihuoneessa. Pitk\xE4 ja vaativa lukukausi
     on vihdoin takana, ja nyt haluat vain p\xE4\xE4st\xE4 joulunviettoon kotiin.
-    Yll\xE4tykseksesi huomaat, ett\xE4 jouluntaika on tehnyt ammattikorkeasta labyrintin,
-    josta ei ole helppoa p\xE4\xE4st\xE4 ulos. \xC4l\xE4 huoli, et ole kuitenkaan
-    yksin, sill\xE4 opettajat auttavat sinua. Etsi ja kuuntele heid\xE4n antamiaan
-    vinkkej\xE4 huolellisesti, ja pian olet ansaitulla joululomalla!"
+    Yll\xE4tykseksesi huomaat, ett\xE4 jouluntaika on tehnyt ammattikorkeasta labyrintin.
+    \xC4l\xE4 huoli, et ole kuitenkaan yksin, sill\xE4 opettajat auttavat sinua.
+    Etsi ja kuuntele heid\xE4n vinkkej\xE4\xE4n huolellisesti, niin p\xE4\xE4set
+    ansaitulle joululomalle!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -382,7 +382,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -646.64185, w: -424.25897}
+  m_margin: {x: 0, y: 0, z: 5.211609, w: -3.1024628}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -432,10 +432,10 @@ RectTransform:
   - {fileID: 1320652124}
   m_Father: {fileID: 2098014908}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 19.304077, y: -10}
-  m_SizeDelta: {x: -982.2421, y: -465.2242}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1.5368, y: -10}
+  m_SizeDelta: {x: 203.3109, y: 102.7758}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &467912034
 MonoBehaviour:
