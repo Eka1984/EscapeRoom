@@ -39,7 +39,7 @@ public class CanvasScript2 : MonoBehaviour
     public void ChoiceOption3()
     {
         feedBack.text = "Oikein! Nyt voit poistua huoneesta";
-        feedBack.color = Color.blue;
+        //feedBack.color = Color.blue;
         Invoke("ShowAnimation2", 1.5f);
         Invoke("DeactivatePanel", 2.2f);
         exitButton.SetActive(true);
