@@ -420,7 +420,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.93893605, g: 0.65979, b: 0.9528302, a: 1}
+      maxColor: {r: 0.5536846, g: 0.8112629, b: 0.9716981, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5277,7 +5277,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 276.07755, y: -150.16064}
+  m_AnchoredPosition: {x: 276.07755, y: -169}
   m_SizeDelta: {x: 64.8558, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &916501825
@@ -5309,8 +5309,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4284810855
-  m_fontColor: {r: 0.4056604, g: 0.02449268, b: 0.39569512, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5388,6 +5388,7 @@ GameObject:
   - component: {fileID: 1484441014}
   - component: {fileID: 1484441016}
   - component: {fileID: 1484441015}
+  - component: {fileID: 1484441017}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -5412,8 +5413,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.385376, y: -2.7193}
-  m_SizeDelta: {x: -536.9988, y: -252.8706}
+  m_AnchoredPosition: {x: -2.5021973, y: -21}
+  m_SizeDelta: {x: -509.7526, y: -229.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1484441015
 MonoBehaviour:
@@ -5428,7 +5429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9189017, g: 0.81157, b: 0.9622642, a: 1}
+  m_Color: {r: 0.77254903, g: 0.06666667, b: 0.08235294, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5453,6 +5454,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484441013}
   m_CullTransparentMesh: 1
+--- !u!114 &1484441017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484441013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1493379703
 GameObject:
   m_ObjectHideFlags: 0
