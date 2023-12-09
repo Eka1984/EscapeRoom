@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI; // Tämä on lisätty tekstin kirjoiituksen varten
+using UnityEngine.UI; 
 
 
 public class MultiChoiceQuetions: MonoBehaviour
