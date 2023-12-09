@@ -67,7 +67,7 @@ public class MultiChoiceQuetions: MonoBehaviour
     // kameran edessä ujo painike
     public void btn2Clicked()
     {
-        textBox.text = "Vastaus on oikein! Voit jatkaa eteenpäin!";
+        textBox.text = "Vastaus on oikein! \nVoit jatkaa eteenpäin!";
         answer = 2;
 
     }
