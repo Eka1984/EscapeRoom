@@ -829,8 +829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268e2b0199fa3654b93a9dbda92359d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isDragging: 0
-  cam: {fileID: 0}
+  sensitivity: 1
 --- !u!114 &813233979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1872,7 +1871,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278718961
-  m_fontColor: {r: 0.9433962, g: 0.06634641, b: 0.030259816, a: 1}
+  m_fontColor: {r: 0.9529412, g: 0.6666667, b: 0.050980393, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
