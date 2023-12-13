@@ -15,18 +15,21 @@ public class CanvasScript : MonoBehaviour
     public GameObject questionPanel;
 
     
-    // Start is called before the first frame update
+    // Piilotetaan exit-objekti
     void Start()
     {
         exitButton.SetActive(false);
     }
 
+    //Funktio, joka antaa väärin palaute
     public void ChoiceOption1()
     {
-        Debug.Log("Button Clicked!");
+        //Debug.Log("Button Clicked!");
         feedBack.text = "Väärin! Yritä uudelleen";
         
     }
+
+    //Funktio, joka antaa oikein palaute
     public void ChoiceOption2()
     {        
         feedBack.text = "Oikein! Nyt voit poistua huoneesta";
@@ -36,17 +39,19 @@ public class CanvasScript : MonoBehaviour
         exitButton.SetActive(true);
         
     }
-
+    //Funktio, joka antaa väärin palaute
     public void ChoiceOption3()
     {
         feedBack.text = "Väärin! Yritä uudelleen";
     }
 
+    //Funktio, joka näyttää animaatiota
     public void ShowAnimation()
     {
         questionPanel.GetComponent<Animator>().Play("PanelSlidesAway");
     }
     
+    //Funktio, joka deaktivoi kysymyspaneelin 
     public void DeactivatePanel()
     {
         questionPanel.SetActive(false); 

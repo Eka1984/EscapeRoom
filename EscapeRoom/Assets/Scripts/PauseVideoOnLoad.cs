@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
@@ -6,16 +6,13 @@ using UnityEngine.Video;
 public class PauseVideoOnLoad : MonoBehaviour
 {
     private VideoPlayer videoPlayer;
-    // Start is called before the first frame update
+
+    
+    // Video keskeytetään heti latauksen jälkeen
     void Start()
     {
         videoPlayer = GetComponent<VideoPlayer>();
         videoPlayer.Pause();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-   
-}
+    
 }

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
@@ -6,7 +6,7 @@ using UnityEngine.Video;
 public class ShowTextOnClick : MonoBehaviour
 {
     public GameObject bio;
-    // Start is called before the first frame update
+    // Piilotetaan opettaja bio alussa 
     void Start()
     {
         if (bio != null)
@@ -14,6 +14,7 @@ public class ShowTextOnClick : MonoBehaviour
             bio.SetActive(false);
         }
     }
+    //Näytetään opettaja bio, kun kuva on klikattu 
     private void OnMouseDown()
     {
         bio.SetActive(true);

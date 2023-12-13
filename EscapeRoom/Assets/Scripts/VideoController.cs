@@ -10,7 +10,7 @@ public class VideoController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Initialize the VideoPlayer component
+        // Alustetaan VideoPlayer komponentti 
         videoPlayer = GetComponent<VideoPlayer>();
         videoPlayer.errorReceived += VideoPlayerErrorReceived;
     }
@@ -31,6 +31,7 @@ public class VideoController : MonoBehaviour
         }
     }
 
+    //Virheiden tarkistukseen 
     void VideoPlayerErrorReceived(VideoPlayer source, string message)
     {
         Debug.LogError("VideoPlayer error: " + message);
