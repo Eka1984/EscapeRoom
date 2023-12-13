@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5333417, g: 0.4883033, b: 0.44731015, a: 1}
+  m_IndirectSpecularColor: {r: 0.5333376, g: 0.48828334, b: 0.44729936, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -327,8 +327,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 13, y: 154}
-  m_SizeDelta: {x: 2064.6404, y: 917.85}
+  m_AnchoredPosition: {x: -14, y: 438.49}
+  m_SizeDelta: {x: 1785.7498, y: 348.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &210389798
 MonoBehaviour:
@@ -377,8 +377,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
-  m_fontSizeBase: 150
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1706,6 +1706,7 @@ MonoBehaviour:
   exitPictureCollider: {fileID: 216546512}
   info: {fileID: 210389796}
   quetion: {fileID: 757806669}
+  AnswerAnim: {fileID: 2125208671}
 --- !u!4 &1723583039
 Transform:
   m_ObjectHideFlags: 0
@@ -1959,6 +1960,7 @@ GameObject:
   - component: {fileID: 2125208672}
   - component: {fileID: 2125208673}
   - component: {fileID: 2125208674}
+  - component: {fileID: 2125208675}
   m_Layer: 5
   m_Name: Answer
   m_TagString: Untagged
@@ -2013,9 +2015,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2084,6 +2084,27 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!95 &2125208675
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125208671}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bd75c677a923e784b849e4958af2a1b3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

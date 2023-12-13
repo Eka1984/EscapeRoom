@@ -17,17 +17,22 @@ public class MultiChoiceQuetions: MonoBehaviour
     public Collider exitPictureCollider;
     public GameObject info;
     public GameObject quetion;
+    public GameObject AnswerAnim;
 
     private void Start()
     {
         // exit kuva ei ole n‰kyviss‰
         exitPicture.enabled = false;
         exitPictureCollider.enabled = false;
+        
 
-        // animaatio esille
+        // vain infon animaatio esille
         if(info != null)
         {
             info.SetActive(true);
+           
+            // Vastauksen animaatio ei k‰ynnist‰
+            AnswerAnim.GetComponent<Animator>().Play("ToWait");
         }
 
     }
@@ -41,8 +46,12 @@ public class MultiChoiceQuetions: MonoBehaviour
             btn1.SetActive(true);
             btn2.SetActive(true);
             btn3.SetActive(true);
+
+            // Vastauksen animaatio ei k‰ynnist‰
+            AnswerAnim.GetComponent<Animator>().Play("ToWait");
         }  
-        // vastaus on oikein
+
+        // vastaus on oikein. Btn ja kysymys paneeli menee piiloon ja lis‰ksi animmatio ilmestyy
         else if(answer == oikeinVastaus)
         {
             btn1.SetActive(false);
@@ -53,6 +62,9 @@ public class MultiChoiceQuetions: MonoBehaviour
             // exitkuva tulee esille
             exitPicture.enabled = true;
             exitPictureCollider.enabled = true;
+
+            // vastauksen animaatio k‰ynnistyy
+            AnswerAnim.GetComponent<Animator>().Play("ToHidden");
         }
 
     }
@@ -69,13 +81,12 @@ public class MultiChoiceQuetions: MonoBehaviour
     {
         textBox.text = "Vastaus on oikein! \nVoit jatkaa eteenp‰in!";
         answer = 2;
-
     }
 
     // H‰n koodaa samalla painike
     public void btn3Clicked()
     {
         textBox.text = "Vastaus on v‰‰rin!";
-        answer = 3;
+        answer = 3;       
     }
 }
