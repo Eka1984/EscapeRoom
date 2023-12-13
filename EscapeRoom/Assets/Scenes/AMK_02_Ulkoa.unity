@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.54786074, g: 0.51632315, b: 0.527034, a: 1}
+  m_IndirectSpecularColor: {r: 0.54789996, g: 0.51628625, b: 0.5270676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5270,7 +5270,7 @@ RectTransform:
   m_GameObject: {fileID: 916501823}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.77577883, y: 0.77577883, z: 0.77577883}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1484441014}
@@ -5363,7 +5363,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -308.40436, y: 0, z: -459.72375, w: 0}
+  m_margin: {x: -279.82968, y: 0, z: -459.72375, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5405,7 +5405,7 @@ RectTransform:
   m_GameObject: {fileID: 937730914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1237, y: 1.1237, z: 1.1237}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1212250083}
@@ -5671,7 +5671,7 @@ RectTransform:
   m_GameObject: {fileID: 1484441013}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0354, y: 1.0354, z: 1.0354}
+  m_LocalScale: {x: 1.6943285, y: 1.6943285, z: 1.6943285}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 916501824}
